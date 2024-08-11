@@ -30,6 +30,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.room.Room
 import coil.compose.rememberAsyncImagePainter
+import com.example.myapplication.cache.CachedImage
 import com.example.myapplication.data.remote.ApiClient
 import com.example.myapplication.data.local.ApodDatabase
 import com.example.myapplication.repository.ApodRepository
@@ -91,7 +92,7 @@ fun ApodScreen(viewModel: ApodViewModel) {
 
 @Composable
 fun MyImageScreen() {
-    CachedImage(url = "https://example.com/sample.jpg")
+    CachedImage(url = "")
 }
 
 @Preview(showBackground = true)

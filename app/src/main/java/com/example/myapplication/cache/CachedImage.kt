@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.cache
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -9,10 +9,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.viewinterop.AndroidView
-import coil.ImageLoader
-import coil.request.ImageRequest
-import coil.request.SuccessResult
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
