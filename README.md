@@ -5,11 +5,12 @@ This Android app displays NASA's Astronomy Picture of the Day (APOD) along with 
 ## Features
 Fetches the Astronomy Picture of the Day from NASA's APOD API.
 Displays the image, title, and explanation for the day.
-Handles offline scenarios by showing the last viewed APOD if the network is unavailable.
+Handles offline scenarios by showing the last viewed APOD if the network is unavailable. // Not Completed due to shortage of time
 Supports both image and video content, displaying videos in a WebView.
 Allows users to scroll through the content if it's too large for the screen.
-Getting Started
-Prerequisites
+
+### Getting Started
+#### Prerequisites
 Android Studio: Make sure you have the latest version of Android Studio installed.
 API Key: You need to obtain a NASA API key to use the APOD API. You can get one from NASA's API portal.
 
@@ -60,6 +61,10 @@ Build and Run the app:
 Click on the "Run" button in Android Studio to build and run the app.
 
 ## Improvement Areas
+
+App is showing the image only when App is getting the "Media_type" as "Image" otherwise App will show as webview for Image part
+
+Image or Webview will not show offline, only content will appear. Offline image part is not completed yet
 
 Caching is not properly implemented due to shortage of time
 
